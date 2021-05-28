@@ -5,7 +5,7 @@ var ffmpeg = require('fluent-ffmpeg');
 var ffprobe = require('ffprobe');
 
 const { Video } = require("../models/Video");
-const { Subscriber } = require("../models/Subscriber");
+
 const { auth } = require("../middleware/auth");
 
 var storage = multer.diskStorage({
